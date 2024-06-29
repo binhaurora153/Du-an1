@@ -497,6 +497,9 @@ a {
 .features-item .box {
   width: 45%;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .features-item .box .desc {
@@ -527,6 +530,9 @@ a {
 
 .features-next .box1 {
   width: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .features-next .hoc.hoc3 {
@@ -577,6 +583,7 @@ a {
   display: flex;
   padding-top: 55px;
   gap: 30px;
+  overflow: hidden;
 }
 .hero1 {
   background-color: #fffcf4;
@@ -589,6 +596,7 @@ a {
 }
 .hero1 .course-item {
   width: 370px;
+  flex-shrink: 0;
   height: 467px;
   border-radius: 12px;
   background: #fff;
