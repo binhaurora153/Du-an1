@@ -397,5 +397,75 @@ a {
 .popular .course-item .btn.btn-book:hover {
   background-color: #ffb900;
   color: #fff;
-  border: 1px solid transparent;
+  border: 0 solid transparent;
+}
+/* feedback */
+
+.feedback {
+  margin-top: 135px;
+  background: #2e2100;
+  padding: 96px 0;
+}
+
+.feedback .feedback-item {
+  display: flex;
+}
+
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback-item .member-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+}
+
+.feedback-item .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.feedback-item .dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 28px;
+}
+
+.feedback-item .dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #634700;
+  cursor: pointer;
+}
+.feedback-item .dot.active {
+  background-color: var(--primary-color);
+}
+.feedback-item .content {
+  margin-left: auto;
+  width: 66%;
+  position: relative;
+}
+
+.feedback-item blockquote {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+}
+
+.feedback-item .open-quotes {
+  position: absolute;
+  left: -30px;
+  top: -25px;
 }
